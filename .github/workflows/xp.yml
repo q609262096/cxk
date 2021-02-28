@@ -1,0 +1,33 @@
+name: 笑谱&多看点
+
+on:
+  workflow_dispatch:
+  watch:
+    types: started
+  schedule:
+    - cron: '30 0-12 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest       
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/66903202/js.git ~/js
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: |
+          cd ~/js
+          npm install
+          npm install cron
+          npm install request
+      - name: '运行 【笑谱】'
+        run: |
+          cd ~/js   
+          node Task/iboxpays.js
+      - name: '【多看点】'
+        run: |
+          cd ~/js   
+          node Task/duokandian.js

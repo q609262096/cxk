@@ -1,0 +1,34 @@
+name: 中青看点1
+
+on:
+  workflow_dispatch:
+  watch:
+    types: started
+  schedule:
+    - cron: '*/30 0-23 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest       
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/66903202/cxk.git ~/cxk
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: |
+          cd ~/cxk
+          npm install
+          npm install cron
+          npm install request
+          npm install md5-node
+      - name: '运行 【中青看点1】'
+        run: |
+          cd ~/cxk   
+          node Task/youth1.js
+      - name: '运行 【youthshare】'
+        run: |
+          cd ~/cxk   
+          node Task/youthshare.js
