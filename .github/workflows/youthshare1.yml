@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/66903202/cxk.git ~/cxk
+          git clone https://github.com/q609262096/cxk.git ~/cxk
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
