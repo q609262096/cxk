@@ -4,7 +4,15 @@ let md5 = require('md5-node');
 let nowTime;
 let wxck;
 let articles = ["https://focus.youth.cn/article/ws_two?signature=N3vEgwjmRqPndZp5kr7bgyJZdUwJZWoaeoGDy9x2KzL8JAblYX&scene_id=home_feed&share_id=64393562427060251650163220218&time=1650163220218",
-	       "https://focus.youth.cn/article/ws_seven?signature=l3Q0RNe9oPxVZ6pJMA7EJZJW5ujmLrqaL2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=64391437427848811650535291812&time=1650535291812"]
+	       "https://focus.youth.cn/article/ws_seven?signature=l3Q0RNe9oPxVZ6pJMA7EJZJW5ujmLrqaL2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=64391437427848811650535291812&time=1650535291812",
+	       "https://focus.youth.cn/article/ws_seven?signature=jEPYDGOJ685MLWwrbNaAVAGJWHWdEKx1l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=64391437426344541650599504637&time=1650599504637",
+	       "https://focus.youth.cn/article/video?signature=DJ5qQLk6jVvNWEzxlO70mBlKRSePyQ8a0BGyPngp83Zm9KYreM&ip=3395823906",
+	       "https://focus.youth.cn/article/ws_one?signature=dvG9ReJyYL36goEAWV46qA2yvcg0YQg1MQD0OPmnkw5jBl2X8Z&scene_id=home_feed&share_id=65613301426268411650596063209&time=1650596063209",
+	       "https://focus.youth.cn/article/ws_one?signature=l3Q0RNe9oPxVZ6pJMA7EJZDKDsj0emjaL2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=65613301427921711650598343311&time=1650598343311",
+	       "https://focus.youth.cn/article/video?signature=lXOy8gQJwx6DGYbAEV79OmbxwSyLkRy1PzMNdL3pWmnq02kveR&ip=3395823906",
+	       "https://focus.youth.cn/article/ws_six?signature=pznrQKZ06xYeGkD5yA4wdl9GBtVYM2n78Nm2bvMqRWw9gPdLVO&scene_id=home_feed&share_id=65662476427892281650597438433&time=1650597438433",
+	       "https://focus.youth.cn/article/ws_six?signature=6y30XlmbkL9oxwAjJd1PJZjxXfWJyLw7gMQE2nZKW8RNpvPrqz&scene_id=home_feed&share_id=65662476427879461650597457768&time=1650597457768",
+	       "https://focus.youth.cn/article/ws_six?signature=NlWqkrwJYXnOvx5DKb1RMwodpu6Ge8Ba08g2GjM9RLeV3EPymQ&scene_id=home_feed&share_id=65662476426787601650597473500&time=1650597473500"]
 let encodearticles;
 
 
