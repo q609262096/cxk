@@ -27,7 +27,13 @@ let articles = ["https://focus.youth.cn/article/ws_two?signature=N3vEgwjmRqPndZp
 	       "https://focus.youth.cn/article/ws_one?signature=V5EWkpzrBZdXGYOlmQ4XBL2kZTVO8Q2aoK2nvbNxqe03PjJw9A&scene_id=home_feed&share_id=66232861438215371652781497632&time=1652781497632",
 	       "https://focus.youth.cn/article/ws_four?signature=bNLQGOPvkzKWxBE3gD1MBvA8BiBDnrR4yM2eV8nrowqJXmZjY5&scene_id=home_feed&share_id=66262624438869751652947838054&time=1652947838054",
 	       "https://focus.youth.cn/article/ws_four?signature=JnXBk5Pw0ALYDjZx8G4ZOZow2SLVQX07olKN2Q3yzm6VREOr9p&scene_id=home_feed&share_id=66262624429642671652947848413&time=1652947848413",
-	       "https://focus.youth.cn/article/video?signature=jEPYDGOJ685MLWwrbNaAVwRejUWNDg01l3zVgQoedxKAkR20pB&ip=3395823906",]
+	       "https://focus.youth.cn/article/video?signature=jEPYDGOJ685MLWwrbNaAVwRejUWNDg01l3zVgQoedxKAkR20pB&ip=3395823906",
+	       "https://focus.youth.cn/article/ws_six?signature=85edrWAo2wXgEPm3Qv7OOjRxEIQqGXp7lN06jZVDYx9qpkBKMb&scene_id=home_feed&share_id=66335456441107721653141416601&time=1653141416601",
+	       "https://focus.youth.cn/article/ws_six?signature=N3vEgwjmRqPndZp5kr7bgzR8Euw8YOpaeoGDy9x2KzL8JAblYX&scene_id=home_feed&share_id=66335456440520891653141466309&time=1653141466309 ",
+	       "https://focus.youth.cn/article/ws_six?signature=jEPYDGOJ685MLWwrbNaAVMEJViWm0ZO1l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=66335456441270831653141492038&time=1653141492038",
+	       "https://focus.youth.cn/article/ws_seven?signature=JnXBk5Pw0ALYDjZx8G4ZO2nLeULObLL7olKN2Q3yzm6VREOr9p&scene_id=home_feed&share_id=66322317435335651653139240382&time=1653139240382",
+	       "https://focus.youth.cn/article/ws_seven?signature=bNLQGOPvkzKWxBE3gD1MBpV6puBVkBB4yM2eV8nrowqJXmZjY5&scene_id=home_feed&share_id=66322317440477731653139266781&time=1653139266781",
+	       "https://focus.youth.cn/article/ws_seven?signature=o9xqzDrKG6wJnYZ5Ek4eRQDeZtqJBqq7R3LXvBgNylVOMbA02W&scene_id=home_feed&share_id=66322317440508661653139284671&time=1653139284671",]
 let encodearticles;
 
 
