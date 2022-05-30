@@ -3,10 +3,10 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focus.youth.cn/article/ws_two?signature=N3vEgwjmRqPndZp5kr7bgyJZdUwJZWoaeoGDy9x2KzL8JAblYX&scene_id=home_feed&share_id=64393562427060251650163220218&time=1650163220218",
-	       "https://focus.youth.cn/article/ws_seven?signature=l3Q0RNe9oPxVZ6pJMA7EJZJW5ujmLrqaL2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=64391437427848811650535291812&time=1650535291812",
-	       "https://focus.youth.cn/article/ws_seven?signature=jEPYDGOJ685MLWwrbNaAVAGJWHWdEKx1l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=64391437426344541650599504637&time=1650599504637",
-	       "https://focus.youth.cn/article/video?signature=DJ5qQLk6jVvNWEzxlO70mBlKRSePyQ8a0BGyPngp83Zm9KYreM&ip=3395823906",
+let articles = ["https://focus.youth.cn/article/ws_zero?signature=bD6x5nzGA2pvRerWXy4Qm8Dv9hkN3ov4Og8LdMkQlPVqJYN0Bo&scene_id=home_feed&share_id=66538410421055051653919662806&time=1653919662806",
+	       "https://focus.youth.cn/article/ws_zero?signature=5yNLlPgo6r98RX0bMW7YYjvRYuewk3d7KEVpwGOxvAqDZzBJdm&scene_id=home_feed&share_id=66538410410337501653919712144&time=1653919712144",
+	       "https://focus.youth.cn/article/ws_zero?signature=NXjrme82G3An0wVvWpamq3Q8DTApXQdagq9dJKyL5YRxElM6Zo&scene_id=home_feed&share_id=66538410442808751653919723311&time=1653919723311",
+	       "https://focus.youth.cn/article/ws_zero?signature=glp5xY6RDENobMmkVO75xgV33fDmBP048GPZQwnj20JBreK3Ay&scene_id=home_feed&share_id=66538410443012621653919734696&time=1653919734696",
 	       "https://focus.youth.cn/article/ws_one?signature=dvG9ReJyYL36goEAWV46qA2yvcg0YQg1MQD0OPmnkw5jBl2X8Z&scene_id=home_feed&share_id=65613301426268411650596063209&time=1650596063209",
 	       "https://focus.youth.cn/article/ws_one?signature=l3Q0RNe9oPxVZ6pJMA7EJZDKDsj0emjaL2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=65613301427921711650598343311&time=1650598343311",
 	       "https://focus.youth.cn/article/video?signature=lXOy8gQJwx6DGYbAEV79OmbxwSyLkRy1PzMNdL3pWmnq02kveR&ip=3395823906",
