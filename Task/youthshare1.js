@@ -37,7 +37,9 @@ let articles = ["https://focus.youth.cn/article/ws_zero?signature=bD6x5nzGA2pvRe
 	       "https://focus.youth.cn/article/ws_two?signature=6y30XlmbkL9oxwAjJd1PJ2Wg3FW5dmy7gMQE2nZKW8RNpvPrqz&scene_id=home_feed&share_id=66744252444829811654528601537&time=1654528601537",
 	       "https://focus.youth.cn/article/ws_five?signature=nG63ezAQDowMB0vlYg4kLxb28tloLNo7L8KN5yR9XpjPOxrbdE&scene_id=home_feed&share_id=66744252420122481654528611517&time=1654528611517",
 	       "https://focus.youth.cn/article/ws_five?signature=b8ne3myXKLv0lpjr2RaBZPYQWi8br2baxP5OAdZD6NYMBgwzVQ&scene_id=home_feed&share_id=66744252425207471654528618733&time=1654528618733",
-	       "https://focus.youth.cn/article/ws_five?signature=o9xqzDrKG6wJnYZ5Ek4eRAKZWtqvwQv7R3LXvBgNylVOMbA02W&scene_id=home_feed&share_id=66744252423055781654528626241&time=1654528626241",]
+	       "https://focus.youth.cn/article/ws_five?signature=o9xqzDrKG6wJnYZ5Ek4eRAKZWtqvwQv7R3LXvBgNylVOMbA02W&scene_id=home_feed&share_id=66744252423055781654528626241&time=1654528626241",
+	       "https://focus.youth.cn/article/ws_one?signature=Zry0KPXd5RYDQVznvq4vRr9ZvFXzrgL4GlE6go9mAJkeON2wjW&scene_id=home_feed&share_id=66232861444120751654831723808&time=1654831723808",
+	       "https://focus.youth.cn/article/ws_one?signature=DJ5qQLk6jVvNWEzxlO70m5vK6sew6JXa0BGyPngp83Zm9KYreM&scene_id=home_feed&share_id=66232861442109741654831778767&time=1654831778767",]
 let encodearticles;
 
 
