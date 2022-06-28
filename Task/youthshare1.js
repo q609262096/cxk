@@ -43,7 +43,17 @@ let articles = ["https://focus.youth.cn/article/ws_zero?signature=bD6x5nzGA2pvRe
 	       "https://focus.youth.cn/article/ws_seven?signature=Kb8LA9nmqlJRV56zE31yR9gYJcj0loj4ZDNjYOMGgyPBWwreQ0&scene_id=home_feed&share_id=67046117421100151655644909719&time=1655644909719",
 	       "https://focus.youth.cn/article/ws_seven?signature=EgVbkQOLMqvWm9RrG0a2nQ8j5cNZjqNa3xy6doZeXBJzln85PD&scene_id=home_feed&share_id=67046117430466931655644920902&time=1655644920902",
 	       "https://focus.youth.cn/article/ws_seven?signature=Zry0KPXd5RYDQVznvq4vRxnVEcXE2vX4GlE6go9mAJkeON2wjW&scene_id=home_feed&share_id=67046117424856711655644928694&time=1655644928694",
-	       "https://focus.youth.cn/article/ws_seven?signature=NqylzJV6MGKj23RQPraWqoJv0sBkrNB4EYOAgBndo9ZkDbepv5&scene_id=home_feed&share_id=67046117425972721655644937727&time=1655644937727",]
+	       "https://focus.youth.cn/article/ws_seven?signature=NqylzJV6MGKj23RQPraWqoJv0sBkrNB4EYOAgBndo9ZkDbepv5&scene_id=home_feed&share_id=67046117425972721655644937727&time=1655644937727",
+	       "https://focus.youth.cn/article/ws_six?signature=5NPeoJjl0pEAqLZYQM4qppEMnfLk6qP1692Vrk3gBdwXDyWK8b&scene_id=home_feed&share_id=67309071421669861656427361105&time=1656427361105",
+	       "https://focus.youth.cn/article/ws_six?signature=3pjJxr9YwmWqndeOG07NkDe9ZiR5n6maQALRvlPVyZ52g68MDz&scene_id=home_feed&share_id=67309071423055781656427410937&time=1656427410937",
+	       "https://focus.youth.cn/article/ws_six?signature=b8ne3myXKLv0lpjr2RaBZLLYxs8EolWaxP5OAdZD6NYMBgwzVQ&scene_id=home_feed&share_id=67309071414036431656427423237&time=1656427423237",
+	       "https://focus.youth.cn/article/ws_six?signature=NqylzJV6MGKj23RQPraWqwebrUBYLOm4EYOAgBndo9ZkDbepv5&scene_id=home_feed&share_id=67309071420516701656427433521&time=1656427433521",
+               "https://focus.youth.cn/article/ws_six?signature=pznrQKZ06xYeGkD5yA4wdP3B5IVYM2n78Nm2bvMqRWw9gPdLVO&scene_id=home_feed&share_id=67309071419946721656427463106&time=1656427463106",
+	       "https://focus.youth.cn/article/ws_eight?signature=bNLQGOPvkzKWxBE3gD1MBROyetBN6Kn4yM2eV8nrowqJXmZjY5&scene_id=home_feed&share_id=67129518449006201656427161207&time=1656427161207",
+	       "https://focus.youth.cn/article/ws_eight?signature=DJ5qQLk6jVvNWEzxlO70m3Rwmfey2Goa0BGyPngp83Zm9KYreM&scene_id=home_feed&share_id=67129518446956511656427153088&time=1656427153088",
+	       "https://focus.youth.cn/article/ws_eight?signature=bDm0KxOyWQGgYNjrBV4jEX8yziXOoMv1oLpzq253Av968kJPEM&scene_id=home_feed&share_id=67129518449008921656427144872&time=1656427144872",
+	       "https://focus.youth.cn/article/ws_eight?signature=jEPYDGOJ685MLWwrbNaAVmnN0FWElzD1l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=67129518448960391656427136402&time=1656427136402",
+	       "https://focus.youth.cn/article/ws_eight?signature=DJ5qQLk6jVvNWEzxlO70mOExbCey2Goa0BGyPngp83Zm9KYreM&scene_id=home_feed&share_id=67129518449063071656427127870&time=1656427127870",]
 let encodearticles;
 
 
