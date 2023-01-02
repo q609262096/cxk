@@ -58,7 +58,13 @@ let articles = ["https://focus.youth.cn/article/ws_zero?signature=bD6x5nzGA2pvRe
 	       "https://focus.youth.cn/article/ws_eight?signature=bDm0KxOyWQGgYNjrBV4jEX8yziXOoMv1oLpzq253Av968kJPEM&scene_id=home_feed&share_id=67129518449008921656427144872&time=1656427144872",
 	       "https://focus.youth.cn/article/ws_eight?signature=jEPYDGOJ685MLWwrbNaAVmnN0FWElzD1l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=67129518448960391656427136402&time=1656427136402",
 	       "https://focus.youth.cn/article/ws_eight?signature=DJ5qQLk6jVvNWEzxlO70mOExbCey2Goa0BGyPngp83Zm9KYreM&scene_id=home_feed&share_id=67129518449063071656427127870&time=1656427127870",
+	       "https://focus.youth.cn/s/as_one?signature=V5EWkpzrBZdXGYOlmQ4X0NRLVigzVRP4oK2nvbNxqe03PjJw9A&scene_id=home_feed&share_id=70907600472590831672672203775&time=1672672203775",
+	       "https://focus.youth.cn/s/as_one?signature=bDjmABzyXE32GNxlOY4pZMyG8CxLlQAaZ9vnQ58wq06peMdkrP&scene_id=home_feed&share_id=70907600472633711672672244614&time=1672672244614",
+	       "https://focus.youth.cn/s/as_one?signature=M3YJXEvNgO8W5zRwpk4V0PnKju5Gwgoa2mZ69xB0loAqGPQnLb&scene_id=home_feed&share_id=70907600470812851672672253942&time=1672672253942",
+	       "https://focus.youth.cn/s/as_one?signature=vg9Vr5WAX3dJejlq6GaJpzROQimJQyr4woYk2PpNxbRZEDzmnL&scene_id=home_feed&share_id=70907600472560871672672263270&time=1672672263270",
+	       "https://focus.youth.cn/s/as_one?signature=qEkWRmZyvzPO2bBdGX78O56BdHZrGlW4l36xneA0QpKgM9NYL8&scene_id=home_feed&share_id=70907600467293161672672273559&time=1672672273559",
 	       "https://focus.youth.cn/article/ws_one?signature=G6vDYbegoP2Owr90x84KxAPnWFWOldM7jVBXQnmqNLEMRyzZ3l&scene_id=home_feed&share_id=67309351449007511656429075834&time=1656429075834",
+	       "https://focus.youth.cn/s/as_one?signature=8ebgqKwdz5B3lN0vmO4GAN8bbtpO5KxaEZXnGLQox9rJAkWR2Y&scene_id=home_feed&share_id=70907600472627121672672232671&time=1672672232671",
 	       "https://focus.youth.cn/article/ws_one?signature=bDm0KxOyWQGgYNjrBV4jEKDBzTX69Am1oLpzq253Av968kJPEM&scene_id=home_feed&share_id=67309351448113081656429177143&time=1656429177143",
 	       "https://focus.youth.cn/article/ws_one?signature=EgVbkQOLMqvWm9RrG0a2nPd9rINOLr8a3xy6doZeXBJzln85PD&scene_id=home_feed&share_id=67309351423917341656429348262&time=1656429348262",
 	       "https://focus.youth.cn/article/ws_eight?signature=5NPeoJjl0pEAqLZYQM4qpQYjDuLogPK1692Vrk3gBdwXDyWK8b&scene_id=home_feed&share_id=67309351444245951656428592787&time=1656428592787"]
