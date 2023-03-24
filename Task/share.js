@@ -3,11 +3,11 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://wxajuxtzssr.58.com/wx/ooliticheddle/zp/detail?localId=460106000000&infoId=53371690734142&infoType=6&shareUid=93936724736514&tzReqId=1494367996932063232&shareSource=activityjoblist",
-               "https://wxajuxtzssr.58.com/wx/ooliticheddle/zp/detail?localId=460106000000&infoId=53371690734142&infoType=6&shareUid=93936724736514&tzReqId=1494367996932063232&shareSource=activityjoblist",
-               "https://wxajuxtzssr.58.com/wx/ooliticheddle/zp/detail?localId=460106000000&infoId=53371690734142&infoType=6&shareUid=93936724736514&tzReqId=1494367996932063232&shareSource=activityjoblist",
-               "https://wxajuxtzssr.58.com/wx/ooliticheddle/zp/detail?localId=460106000000&infoId=53371690734142&infoType=6&shareUid=93936724736514&tzReqId=1494367996932063232&shareSource=activityjoblist",
-               "https://wxajuxtzssr.58.com/wx/ooliticheddle/zp/detail?localId=460106000000&infoId=53371690734142&infoType=6&shareUid=93936724736514&tzReqId=1494367996932063232&shareSource=activityjoblist"]
+let articles = ["https://focus.youth.cn/s/5l95a49j?signature=jEPYDGOJ685MLWwrbNaAoBKNdu3ZGK94l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=71924402481620731679499929755&time=1679499929755",
+               "https://focus.youth.cn/s/5l95a49j?signature=l3Q0RNe9oPxVZ6pJMA7EolPGeSd5Wr01L2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=71924402480947561679499946168&time=1679499946168",
+               "https://focus.youth.cn/s/5l95a49j?signature=bDjmABzyXE32GNxlOY4pZ6g2qSGd36baZ9vnQ58wq06peMdkrP&scene_id=home_feed&share_id=71924402481617801679499955175&time=1679499955175",
+               "https://focus.youth.cn/s/5l95a49j?signature=5yNLlPgo6r98RX0bMW7Y05wn3Hq62Ab4KEVpwGOxvAqDZzBJdm&scene_id=home_feed&share_id=71924402481479281679499963606&time=1679499963606",
+               "https://focus.youth.cn/s/5l95a49j?signature=8ebgqKwdz5B3lN0vmO4GADl5dcqdvJ0aEZXnGLQox9rJAkWR2Y&scene_id=home_feed&share_id=71924402481573651679499971673&time=1679499971673"]
 let encodearticles;
 
 
