@@ -3,7 +3,13 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focus.youth.cn/s/5l95a49j?signature=jEPYDGOJ685MLWwrbNaAoBKNdu3ZGK94l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=71924402481620731679499929755&time=1679499929755",
+let articles = [
+                "https://focus.youth.cn/s/odjrap1g?signature=NlWqkrwJYXnOvx5DKb1R0D6dEsRWdk9708g2GjM9RLeV3EPymQ&scene_id=home_feed&share_id=72148972482466871680246737506&time=1680246737506",
+	"https://focus.youth.cn/s/odjrap1g?signature=N3vEgwjmRqPndZp5kr7bVEqyOFKD3X27eoGDy9x2KzL8JAblYX&scene_id=home_feed&share_id=72148972481916891680246727939&time=1680246727939",
+	"https://focus.youth.cn/s/odjrap1g?signature=B3MvlKp05kgOXPA9oG7nZE2EqFkMvy37erYEjxzQLWmw8DnyJb&scene_id=home_feed&share_id=72148972482429211680246717965&time=1680246717965",
+	"https://focus.youth.cn/s/odjrap1g?signature=b8ne3myXKLv0lpjr2RaBokNPBuDOyeK1xP5OAdZD6NYMBgwzVQ&scene_id=home_feed&share_id=72148972481954701680246709027&time=1680246709027",
+	"https://focus.youth.cn/s/odjrap1g?signature=bDm0KxOyWQGgYNjrBV4jZJZQbfPrmnD4oLpzq253Av968kJPEM&scene_id=home_feed&share_id=72148972482376481680246695955&time=1680246695955",
+	"https://focus.youth.cn/s/5l95a49j?signature=jEPYDGOJ685MLWwrbNaAoBKNdu3ZGK94l3zVgQoedxKAkR20pB&scene_id=home_feed&share_id=71924402481620731679499929755&time=1679499929755",
                "https://focus.youth.cn/s/5l95a49j?signature=l3Q0RNe9oPxVZ6pJMA7EolPGeSd5Wr01L2XGkOKdvDynjYb5Wz&scene_id=home_feed&share_id=71924402480947561679499946168&time=1679499946168",
                "https://focus.youth.cn/s/5l95a49j?signature=bDjmABzyXE32GNxlOY4pZ6g2qSGd36baZ9vnQ58wq06peMdkrP&scene_id=home_feed&share_id=71924402481617801679499955175&time=1679499955175",
                "https://focus.youth.cn/s/5l95a49j?signature=5yNLlPgo6r98RX0bMW7Y05wn3Hq62Ab4KEVpwGOxvAqDZzBJdm&scene_id=home_feed&share_id=71924402481479281679499963606&time=1679499963606",
